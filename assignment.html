@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Creation</title>
+</head>
+<body>
+ <h1>HTML Form Creation </h1>   
+ <form action="">
+   <fieldset>
+    <legend>personnal Information</legend>
+    <label for="text">Text</label>
+    <input type="text" name="text" required> <br>
+    <label for="password">password</label>
+    <input type="password"> <br>
+    <label for="email">email</label>
+    <input type="email"><br>
+    <label for="number">number</label>
+    <input type="number"><br>
+    <label for="telephone">telephone</label>
+    <input type="tel"><br>
+    <label for="website">website</label>
+    <input type="url">
+ </fieldset>
+
+ <fieldset>
+    <legend>date & time</legend>
+    <label for="date">date</label>
+    <input type="date"><br>
+    <label for="datetime-local">datetime-local</label>
+    <input type="datetime-local"><br>
+    <label for="month">month</label>
+    <input type="month"><br>
+    <label for="week">week</label>
+    <input type="week"><br>
+    <label for="time">time</label>
+    <input type="time"><br>
+
+
+ </fieldset>
+
+ <fieldset>
+    <legend>choices</legend>
+    <label for="like">Gender</label><br>
+    <label for="like">male</label>
+    <input type="radio" name="like">
+    <label for="like">female</label>
+    <input type="radio" name="like"><br>
+
+    <label for="skills"> SKILLS (select all that apply)</label><br>
+    <label for="title">HTML</label>
+    <input type="checkbox" name="title">
+    <label for="title">CSS</label>
+    <input type="checkbox" name="title">
+    <label for="title">JavaScript</label>
+    <input type="checkbox" name="title"><br>
+    <label for="favorite color">favorite color</label>
+    <input type="color" name="color" id="color"><br>
+    <label for="level">skill level (0-100)</label>
+    <input type="range"><br>
+    <label for="">select country</label>
+
+    <select>
+        <option value="...choose">..choose</option>
+        <option value="">nigeria</option>
+        <option value="">ghana</option>
+        <option value="">usa</option>
+        <option value="">canada</option>
+    </select>
+    
+ </fieldset>
+
+ <fieldset>
+   <legend>upload & misc</legend>
+   <label for="upload file">upload file</label>
+   <input type="file"><br>
+   <label for="title">search</label>
+   <input type="search"><br>
+   <label for="hidden input">hidden input</label><br>
+   <input type="hidden">
+   <br>
+   <label for="description">message</label><br>
+   <textarea name="description" rows="10" cols="40" id="description"></textarea>
+ </fieldset>
+ <button>submit form</button>
+    
+ </form>
+</body>
+</html>
